@@ -10,6 +10,6 @@ public class Triangle {
     }
 
     public double calculateArea() {
-        return 0.5 * triangleBase * triangleHeight;
+        return triangleBase * triangleHeight/2;
     }
 }
